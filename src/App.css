@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Kurale&family=Texturina:wght@100&display=swap');
+.App{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    /* font-size: 3rem; */
+}
+h2{
+  position: absolute;
+  font-size: 1.9rem;
+  top: 25%;
+  font-family: 'Texturina', serif;
+  line-height: 2.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span{
+  font-style: italic;
+  font-family: 'Aref Ruqaa', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.vib{
+  font-weight: bold;
+  font-style: normal;
+}
+.App select{
+  position: absolute;
+  top:44%;
+  font-size: 1.4rem;
+  /* outline: rgb(224, 136, 4); */
+  width: 20%;
+  padding: 5px;
+  font-family: 'Kurale', serif;
+}
+
+.App select option{
+  font-size: 1.4rem;
+  width: 15%;
+}
+
+@media screen and (max-width:800px) {
+  .App select{
+    font-size: 1rem;
+    /* outline: rgb(224, 136, 4); */
+    width: 30%;
+    top:43%;
+    padding: 5px;
+  }
+
+  h2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .App select option{
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 20%;
+    /* height: 30%; */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width:500px) {
+  .App select{
+    font-size: 1rem;
+    /* outline: rgb(224, 136, 4); */
+    width: 50%;
+    padding: 5px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App select option{
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 20%;
+    /* height: 30%; */
+  }
+  h2{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
   }
 }
+
