@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/changeColorDropdown/static/css/main.4ba03275.chunk.css",
+    "main.js": "/changeColorDropdown/static/js/main.52f0e3be.chunk.js",
+    "main.js.map": "/changeColorDropdown/static/js/main.52f0e3be.chunk.js.map",
+    "runtime-main.js": "/changeColorDropdown/static/js/runtime-main.bf8164c0.js",
+    "runtime-main.js.map": "/changeColorDropdown/static/js/runtime-main.bf8164c0.js.map",
+    "static/js/2.84b7373a.chunk.js": "/changeColorDropdown/static/js/2.84b7373a.chunk.js",
+    "static/js/2.84b7373a.chunk.js.map": "/changeColorDropdown/static/js/2.84b7373a.chunk.js.map",
+    "index.html": "/changeColorDropdown/index.html",
+    "static/css/main.4ba03275.chunk.css.map": "/changeColorDropdown/static/css/main.4ba03275.chunk.css.map",
+    "static/js/2.84b7373a.chunk.js.LICENSE.txt": "/changeColorDropdown/static/js/2.84b7373a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf8164c0.js",
+    "static/js/2.84b7373a.chunk.js",
+    "static/css/main.4ba03275.chunk.css",
+    "static/js/main.52f0e3be.chunk.js"
+  ]
+}
